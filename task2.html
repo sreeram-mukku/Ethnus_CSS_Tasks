@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    verti{height: 50px; width:200px ; display: flex; align-items: center;}
+    verti:hover {
+        background-color: palegoldenrod;
+    }
+    Hori{height: 50px; width:200px ; display: flex; align-items: center; justify-content: center;}
+    Hori:hover {
+        background-color: palegoldenrod;
+    }
+</style>
+
+<body style="display: flex;flex-direction: column; justify-content: center; align-items: center; height: 600px;">
+    <p>Vertical Navigation Bar</p>
+    <div style="border-style: solid; width: 200px; height: 250px; border-width: 1px; background-color: lightblue;">
+        <verti>Home</verti>
+        <verti>Java</verti>
+        <verti>CSS</verti>
+        <verti>HTML</verti>
+        <verti>Bootstrap</verti>
+    </div>
+
+    <p>Horizontal Navigation Bar</p>
+    <div style="border-style: solid; width: 600px; height: 50px; border-width: 1px; background-color: lightblue; display: flex; justify-content: space-between; align-items: center;">
+        <Hori>Home</Hori>
+        <Hori>Java</Hori>
+        <Hori>CSS</Hori>
+        <Hori>HTML</Hori>
+        <Hori>Bootstrap</Hori>
+    </div>
+</body>
+
+</html>
